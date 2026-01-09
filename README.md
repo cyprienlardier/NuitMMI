@@ -1,11 +1,17 @@
 
-  # Create Landing Page
+  # Nuit MMI - Move on the Pose
 
-  This is a code bundle for Create Landing Page. The original project is available at https://www.figma.com/design/6imLvqngxmcHgfV9o8iTnP/Create-Landing-Page.
+  Landing page pour le jeu d'exergaming "Move on the Pose" créé pour la Nuit MMI 2026.
 
-  ## Running the code
+  ## Lancer le projet
 
-  Run `npm i` to install the dependencies.
+  Exécutez `npm i` pour installer les dépendances.
 
-  Run `npm run dev` to start the development server.
+  Exécutez `npm run dev` pour démarrer le serveur de développement.
+
+  ## Déploiement
+
+  Le site est automatiquement déployé sur GitHub Pages à chaque push sur la branche main.
+
+  Lien : https://cyprienlardier.github.io/NuitMMI/
   
