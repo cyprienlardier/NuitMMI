@@ -28,7 +28,7 @@ export default function App() {
 
             {/* Tagline */}
             <p className="text-2xl md:text-3xl text-purple-200 mb-12">
-              Bouge ton corps, évite les obstacles et tiens la pose !
+              Move your body, dodge obstacles and hold the pose!
             </p>
 
             {/* Stats */}
@@ -36,22 +36,22 @@ export default function App() {
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4">
                 <Camera className="w-8 h-8 text-cyan-400 mx-auto mb-2" />
                 <div className="text-2xl font-bold text-cyan-400">ML5.js</div>
-                <div className="text-sm text-gray-400">Détection de mouvement</div>
+                <div className="text-sm text-gray-400">Motion detection</div>
               </div>
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4">
                 <Zap className="w-8 h-8 text-purple-400 mx-auto mb-2" />
                 <div className="text-2xl font-bold text-purple-400">MakeyMakey</div>
-                <div className="text-sm text-gray-400">Contrôles physiques</div>
+                <div className="text-sm text-gray-400">Physical controls</div>
               </div>
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4">
                 <Heart className="w-8 h-8 text-pink-400 mx-auto mb-2" />
-                <div className="text-2xl font-bold text-pink-400">3 Voies</div>
-                <div className="text-sm text-gray-400">Déplacement</div>
+                <div className="text-2xl font-bold text-pink-400">3 Lanes</div>
+                <div className="text-sm text-gray-400">Movement</div>
               </div>
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4">
                 <Target className="w-8 h-8 text-yellow-400 mx-auto mb-2" />
-                <div className="text-2xl font-bold text-yellow-400">3 Vies</div>
-                <div className="text-sm text-gray-400">À ne pas perdre</div>
+                <div className="text-2xl font-bold text-yellow-400">3 Lives</div>
+                <div className="text-sm text-gray-400">Don't lose them all</div>
               </div>
             </div>
           </div>
@@ -73,11 +73,11 @@ export default function App() {
               <div className="flex items-center justify-center gap-3 mb-6">
                 <Users className="w-10 h-10 text-cyan-400" />
                 <h2 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-400">
-                  L'Équipe
+                  The Team
                 </h2>
               </div>
               <p className="text-xl text-gray-400">
-                Une équipe passionnée pour la Nuit MMI 2026
+                A passionate team for Nuit MMI 2026
               </p>
             </div>
 
@@ -106,11 +106,11 @@ export default function App() {
               <div className="flex items-center justify-center gap-3 mb-6">
                 <Gamepad2 className="w-10 h-10 text-purple-400" />
                 <h2 className="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-400">
-                  Comment Jouer
+                  How to Play
                 </h2>
               </div>
               <p className="text-xl text-gray-400">
-                Règles du jeu et objectifs
+                Game rules and objectives
               </p>
             </div>
 
@@ -119,7 +119,7 @@ export default function App() {
               <div className="bg-gradient-to-br from-purple-900/40 to-pink-900/40 backdrop-blur-sm border border-purple-500/30 rounded-2xl p-8">
                 <div className="flex items-center gap-3 mb-6">
                   <Target className="w-10 h-10 text-purple-400" />
-                  <h3 className="text-3xl font-bold text-purple-300">Objectif</h3>
+                  <h3 className="text-3xl font-bold text-purple-300">Objective</h3>
                 </div>
                 <div className="space-y-4 text-gray-300">
                   <div className="flex items-start gap-3">
@@ -127,7 +127,7 @@ export default function App() {
                       <span className="text-purple-400">1</span>
                     </div>
                     <p className="text-lg">
-                      <strong className="text-white">Déplace-toi</strong> dans les <strong className="text-cyan-400">3 voies</strong> disponibles
+                      <strong className="text-white">Move</strong> through the <strong className="text-cyan-400">3 available lanes</strong>
                     </p>
                   </div>
                   <div className="flex items-start gap-3">
@@ -135,7 +135,7 @@ export default function App() {
                       <span className="text-purple-400">2</span>
                     </div>
                     <p className="text-lg">
-                      <strong className="text-white">Évite</strong> tous les obstacles qui arrivent
+                      <strong className="text-white">Avoid</strong> all incoming obstacles
                     </p>
                   </div>
                   <div className="flex items-start gap-3">
@@ -143,7 +143,7 @@ export default function App() {
                       <span className="text-purple-400">3</span>
                     </div>
                     <p className="text-lg">
-                      <strong className="text-white">Tiens la pose</strong> demandée quand elle apparaît
+                      <strong className="text-white">Hold the pose</strong> when it appears on screen
                     </p>
                   </div>
                   <div className="flex items-start gap-3">
@@ -151,7 +151,7 @@ export default function App() {
                       <span className="text-purple-400">4</span>
                     </div>
                     <p className="text-lg">
-                      <strong className="text-white">Découvre</strong> de nouveaux mondes en avançant
+                      <strong className="text-white">Discover</strong> new worlds as you progress
                     </p>
                   </div>
                 </div>
@@ -161,7 +161,7 @@ export default function App() {
               <div className="bg-gradient-to-br from-red-900/40 to-orange-900/40 backdrop-blur-sm border border-red-500/30 rounded-2xl p-8">
                 <div className="flex items-center gap-3 mb-6">
                   <Heart className="w-10 h-10 text-red-400" />
-                  <h3 className="text-3xl font-bold text-red-300">Système de Vies</h3>
+                  <h3 className="text-3xl font-bold text-red-300">Life System</h3>
                 </div>
                 <div className="space-y-6">
                   <div className="bg-black/30 p-6 rounded-xl border border-red-500/20">
@@ -170,23 +170,23 @@ export default function App() {
                       <Heart className="w-6 h-6 text-red-400 fill-red-400" />
                       <Heart className="w-6 h-6 text-red-400 fill-red-400" />
                     </div>
-                    <p className="text-lg text-white font-bold mb-2">Tu as 3 vies au total</p>
-                    <p className="text-gray-400">Ne les perds pas toutes !</p>
+                    <p className="text-lg text-white font-bold mb-2">You have 3 lives total</p>
+                    <p className="text-gray-400">Don't lose them all!</p>
                   </div>
 
                   <div className="space-y-3">
                     <div className="flex items-start gap-3 bg-red-500/10 p-4 rounded-lg border border-red-500/20">
                       <span className="text-2xl">❌</span>
                       <div>
-                        <p className="text-white font-semibold">Obstacle touché</p>
-                        <p className="text-sm text-gray-400">-1 vie si tu percutes un obstacle</p>
+                        <p className="text-white font-semibold">Hit an obstacle</p>
+                        <p className="text-sm text-gray-400">-1 life if you collide with an obstacle</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3 bg-red-500/10 p-4 rounded-lg border border-red-500/20">
                       <span className="text-2xl">⚠️</span>
                       <div>
-                        <p className="text-white font-semibold">Pose manquée</p>
-                        <p className="text-sm text-gray-400">-1 vie si tu ne fais pas la pose demandée</p>
+                        <p className="text-white font-semibold">Missed pose</p>
+                        <p className="text-sm text-gray-400">-1 life if you don't hold the required pose</p>
                       </div>
                     </div>
                   </div>
@@ -203,18 +203,18 @@ export default function App() {
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center p-6 bg-white/5 rounded-xl border border-cyan-500/20">
                   <div className="text-5xl mb-3">🏃</div>
-                  <h4 className="text-xl font-bold text-cyan-300 mb-2">Avance</h4>
-                  <p className="text-gray-400">Plus tu vas loin, plus le jeu devient intéressant</p>
+                  <h4 className="text-xl font-bold text-cyan-300 mb-2">Advance</h4>
+                  <p className="text-gray-400">The further you go, the more interesting it gets</p>
                 </div>
                 <div className="text-center p-6 bg-white/5 rounded-xl border border-purple-500/20">
                   <div className="text-5xl mb-3">🌍</div>
                   <h4 className="text-xl font-bold text-purple-300 mb-2">Explore</h4>
-                  <p className="text-gray-400">Découvre des mondes différents en jouant</p>
+                  <p className="text-gray-400">Discover different worlds as you play</p>
                 </div>
                 <div className="text-center p-6 bg-white/5 rounded-xl border border-pink-500/20">
                   <div className="text-5xl mb-3">⚡</div>
-                  <h4 className="text-xl font-bold text-pink-300 mb-2">Difficulté</h4>
-                  <p className="text-gray-400">Le défi augmente au fur et à mesure</p>
+                  <h4 className="text-xl font-bold text-pink-300 mb-2">Difficulty</h4>
+                  <p className="text-gray-400">Challenge increases progressively</p>
                 </div>
               </div>
             </div>
@@ -229,10 +229,10 @@ export default function App() {
             <div className="bg-gradient-to-br from-cyan-900/40 to-purple-900/40 backdrop-blur-sm border border-cyan-500/30 rounded-3xl p-12">
               <Gamepad2 className="w-20 h-20 text-cyan-400 mx-auto mb-6" />
               <h2 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-400">
-                Prêt à Jouer ?
+                Ready to Play?
               </h2>
               <p className="text-xl text-gray-300 mb-8">
-                Lance le jeu et commence ton aventure d'exergaming !
+                Launch the game and start your exergaming adventure!
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a 
@@ -242,24 +242,24 @@ export default function App() {
                   className="group px-10 py-5 bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 rounded-full font-bold text-xl transition-all transform hover:scale-105 flex items-center justify-center gap-3"
                 >
                   <Play className="w-7 h-7" />
-                  Lancer le Jeu
+                  Launch Game
                   <Sparkles className="w-6 h-6 group-hover:animate-spin" />
                 </a>
               </div>
               <div className="mt-8 pt-8 border-t border-white/10">
-                <p className="text-gray-400 mb-4">Assure-toi d'avoir :</p>
+                <p className="text-gray-400 mb-4">Make sure you have:</p>
                 <div className="flex flex-wrap justify-center gap-4">
                   <div className="flex items-center gap-2 text-sm text-gray-300">
                     <Camera className="w-5 h-5 text-cyan-400" />
-                    Webcam activée
+                    Webcam enabled
                   </div>
                   <div className="flex items-center gap-2 text-sm text-gray-300">
                     <Zap className="w-5 h-5 text-yellow-400" />
-                    MakeyMakey connecté
+                    MakeyMakey connected
                   </div>
                   <div className="flex items-center gap-2 text-sm text-gray-300">
                     <Heart className="w-5 h-5 text-pink-400" />
-                    De l'espace pour bouger
+                    Space to move
                   </div>
                 </div>
               </div>
@@ -274,13 +274,13 @@ export default function App() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <div className="inline-block px-4 py-2 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 border border-cyan-500/30 rounded-full mb-4">
-                <span className="text-cyan-300 font-semibold">Prochainement</span>
+                <span className="text-cyan-300 font-semibold">Coming Soon</span>
               </div>
               <h2 className="text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-400">
-                Version 2.0 - Améliorations Futures
+                Version 2.0 - Future Improvements
               </h2>
               <p className="text-xl text-gray-400">
-                Les fonctionnalités que nous prévoyons d'ajouter pour rendre le jeu encore meilleur
+                Features we plan to add to make the game even better
               </p>
             </div>
 
@@ -290,14 +290,14 @@ export default function App() {
                 <div className="w-16 h-16 bg-orange-500/20 rounded-2xl flex items-center justify-center mb-4">
                   <TrendingUp className="w-8 h-8 text-orange-400" />
                 </div>
-                <h3 className="text-2xl font-bold text-orange-300 mb-3">Niveaux de Difficulté</h3>
+                <h3 className="text-2xl font-bold text-orange-300 mb-3">Difficulty Levels</h3>
                 <p className="text-gray-400 mb-4">
-                  Ajout de plusieurs niveaux de difficulté (Facile, Moyen, Difficile, Expert) pour s'adapter à tous les joueurs, des débutants aux experts. La vitesse des obstacles, la fréquence des poses et le temps de réaction pourront être ajustés.
+                  Adding multiple difficulty levels (Easy, Medium, Hard, Expert) to suit all players, from beginners to experts. Obstacle speed, pose frequency, and reaction time will be adjustable.
                 </p>
                 <div className="aspect-video bg-black/30 rounded-lg flex items-center justify-center border border-orange-500/20">
                   <div className="text-center p-4">
                     <Trophy className="w-12 h-12 text-orange-400/50 mx-auto mb-2" />
-                    <p className="text-gray-500 text-sm">Menu de sélection de difficulté</p>
+                    <p className="text-gray-500 text-sm">Difficulty selection menu</p>
                   </div>
                 </div>
               </div>
@@ -307,14 +307,14 @@ export default function App() {
                 <div className="w-16 h-16 bg-pink-500/20 rounded-2xl flex items-center justify-center mb-4">
                   <Palette className="w-8 h-8 text-pink-400" />
                 </div>
-                <h3 className="text-2xl font-bold text-pink-300 mb-3">Graphismes Améliorés</h3>
+                <h3 className="text-2xl font-bold text-pink-300 mb-3">Enhanced Graphics</h3>
                 <p className="text-gray-400 mb-4">
-                  Design visuel plus abouti avec des animations fluides, des effets de particules, des arrière-plans dynamiques et des transitions entre les mondes. Amélioration des sprites et de l'interface utilisateur pour une expérience plus immersive.
+                  More polished visual design with fluid animations, particle effects, dynamic backgrounds, and transitions between worlds. Improved sprites and user interface for a more immersive experience.
                 </p>
                 <div className="aspect-video bg-black/30 rounded-lg flex items-center justify-center border border-pink-500/20">
                   <div className="text-center p-4">
                     <Sparkles className="w-12 h-12 text-pink-400/50 mx-auto mb-2" />
-                    <p className="text-gray-500 text-sm">Aperçu des nouveaux graphismes</p>
+                    <p className="text-gray-500 text-sm">Preview of new graphics</p>
                   </div>
                 </div>
               </div>
@@ -324,14 +324,14 @@ export default function App() {
                 <div className="w-16 h-16 bg-green-500/20 rounded-2xl flex items-center justify-center mb-4">
                   <Code className="w-8 h-8 text-green-400" />
                 </div>
-                <h3 className="text-2xl font-bold text-green-300 mb-3">Optimisation Technique</h3>
+                <h3 className="text-2xl font-bold text-green-300 mb-3">Technical Optimization</h3>
                 <p className="text-gray-400 mb-4">
-                  Refactorisation du code pour une meilleure performance, optimisation de la détection des collisions, réduction de la latence, amélioration de la structure du projet et ajout de commentaires pour faciliter la maintenance et les futures améliorations.
+                  Code refactoring for better performance, collision detection optimization, latency reduction, improved project structure, and added comments to facilitate maintenance and future improvements.
                 </p>
                 <div className="aspect-video bg-black/30 rounded-lg flex items-center justify-center border border-green-500/20">
                   <div className="text-center p-4">
                     <Layers className="w-12 h-12 text-green-400/50 mx-auto mb-2" />
-                    <p className="text-gray-500 text-sm">Architecture du code optimisée</p>
+                    <p className="text-gray-500 text-sm">Optimized code architecture</p>
                   </div>
                 </div>
               </div>
@@ -341,14 +341,14 @@ export default function App() {
                 <div className="w-16 h-16 bg-blue-500/20 rounded-2xl flex items-center justify-center mb-4">
                   <Camera className="w-8 h-8 text-blue-400" />
                 </div>
-                <h3 className="text-2xl font-bold text-blue-300 mb-3">Détection Corps Entier</h3>
+                <h3 className="text-2xl font-bold text-blue-300 mb-3">Full Body Detection</h3>
                 <p className="text-gray-400 mb-4">
-                  Amélioration de la détection ML5.js pour capturer le corps entier au lieu du buste uniquement. Cela permettra de reconnaître plus de poses et d'obtenir une meilleure précision dans les mouvements, rendant l'expérience plus immersive et réactive.
+                  Enhanced ML5.js detection to capture the entire body instead of just the torso. This will allow recognition of more poses and achieve better movement precision, making the experience more immersive and responsive.
                 </p>
                 <div className="aspect-video bg-black/30 rounded-lg flex items-center justify-center border border-blue-500/20">
                   <div className="text-center p-4">
                     <Camera className="w-12 h-12 text-blue-400/50 mx-auto mb-2" />
-                    <p className="text-gray-500 text-sm">Détection complète du corps</p>
+                    <p className="text-gray-500 text-sm">Full body detection</p>
                   </div>
                 </div>
               </div>
@@ -362,10 +362,10 @@ export default function App() {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-gray-400 mb-2">
-              Créé pour la Nuit MMI 2026 - Challenge Exergaming
+              Created for Nuit MMI 2026 - Exergaming Challenge
             </p>
             <p className="text-sm text-gray-500">
-              Développé avec p5.play, ML5.js et MakeyMakey
+              Developed with p5.play, ML5.js and MakeyMakey
             </p>
           </div>
         </div>

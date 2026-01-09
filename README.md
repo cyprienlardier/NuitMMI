@@ -1,17 +1,17 @@
 
   # Nuit MMI - Move on the Pose
 
-  Landing page pour le jeu d'exergaming "Move on the Pose" créé pour la Nuit MMI 2026.
+  Landing page for the exergaming game "Move on the Pose" created for Nuit MMI 2026.
 
-  ## Lancer le projet
+  ## Running the project
 
-  Exécutez `npm i` pour installer les dépendances.
+  Run `npm i` to install dependencies.
 
-  Exécutez `npm run dev` pour démarrer le serveur de développement.
+  Run `npm run dev` to start the development server.
 
-  ## Déploiement
+  ## Deployment
 
-  Le site est automatiquement déployé sur GitHub Pages à chaque push sur la branche main.
+  The site is automatically deployed to GitHub Pages on every push to the main branch.
 
-  Lien : https://cyprienlardier.github.io/NuitMMI/
+  Link: https://cyprienlardier.github.io/NuitMMI/
   
