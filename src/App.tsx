@@ -236,7 +236,7 @@ export default function App() {
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a 
-                  href="/game" 
+                  href="https://huzeyfe-ckr.github.io/nuitducodemmi26/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group px-10 py-5 bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 rounded-full font-bold text-xl transition-all transform hover:scale-105 flex items-center justify-center gap-3"
