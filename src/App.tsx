@@ -2,7 +2,7 @@ import { Play, Github, Zap, Heart, TrendingUp, Sparkles, Users, Target, Gamepad2
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
+    <div className="min-h-screen bg-gradient-to-br from-black via-slate-950 to-black text-white">
       {/* Hero Section - Nom du jeu */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Animated Background */}
@@ -33,22 +33,22 @@ export default function App() {
 
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4">
+              <div className="bg-black/40 backdrop-blur-sm border border-white/5 rounded-xl p-4">
                 <Camera className="w-8 h-8 text-cyan-400 mx-auto mb-2" />
                 <div className="text-2xl font-bold text-cyan-400">ML5.js</div>
                 <div className="text-sm text-gray-400">Motion detection</div>
               </div>
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4">
+              <div className="bg-black/40 backdrop-blur-sm border border-white/5 rounded-xl p-4">
                 <Zap className="w-8 h-8 text-purple-400 mx-auto mb-2" />
                 <div className="text-2xl font-bold text-purple-400">MakeyMakey</div>
                 <div className="text-sm text-gray-400">Physical controls</div>
               </div>
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4">
+              <div className="bg-black/40 backdrop-blur-sm border border-white/5 rounded-xl p-4">
                 <Heart className="w-8 h-8 text-pink-400 mx-auto mb-2" />
                 <div className="text-2xl font-bold text-pink-400">3 Lanes</div>
                 <div className="text-sm text-gray-400">Movement</div>
               </div>
-              <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-4">
+              <div className="bg-black/40 backdrop-blur-sm border border-white/5 rounded-xl p-4">
                 <Target className="w-8 h-8 text-yellow-400 mx-auto mb-2" />
                 <div className="text-2xl font-bold text-yellow-400">3 Lives</div>
                 <div className="text-sm text-gray-400">Don't lose them all</div>
@@ -66,7 +66,7 @@ export default function App() {
       </section>
 
       {/* Team Section */}
-      <section className="py-20 bg-black/20">
+      <section className="py-20 bg-black/40">
         <div className="container mx-auto px-6">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-12">
@@ -85,7 +85,7 @@ export default function App() {
               {['Jullian', 'Melih', 'Vivien', 'Huzeyfe', 'Cyprien', 'Adrien'].map((name, index) => (
                 <div 
                   key={name}
-                  className="bg-gradient-to-br from-purple-900/40 to-cyan-900/40 backdrop-blur-sm border border-purple-500/30 rounded-2xl p-6 text-center hover:border-cyan-400/50 transition-all transform hover:scale-105"
+                  className="bg-gradient-to-br from-purple-950/60 to-cyan-950/60 backdrop-blur-sm border border-purple-500/20 rounded-2xl p-6 text-center hover:border-cyan-400/50 transition-all transform hover:scale-105"
                 >
                   <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-purple-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-2xl font-bold">{name.charAt(0)}</span>
@@ -116,7 +116,7 @@ export default function App() {
 
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               {/* Objectif du jeu */}
-              <div className="bg-gradient-to-br from-purple-900/40 to-pink-900/40 backdrop-blur-sm border border-purple-500/30 rounded-2xl p-8">
+              <div className="bg-gradient-to-br from-purple-950/70 to-pink-950/70 backdrop-blur-sm border border-purple-500/20 rounded-2xl p-8">
                 <div className="flex items-center gap-3 mb-6">
                   <Target className="w-10 h-10 text-purple-400" />
                   <h3 className="text-3xl font-bold text-purple-300">Objective</h3>
@@ -158,13 +158,13 @@ export default function App() {
               </div>
 
               {/* Règles de vie */}
-              <div className="bg-gradient-to-br from-red-900/40 to-orange-900/40 backdrop-blur-sm border border-red-500/30 rounded-2xl p-8">
+              <div className="bg-gradient-to-br from-red-950/70 to-orange-950/70 backdrop-blur-sm border border-red-500/20 rounded-2xl p-8">
                 <div className="flex items-center gap-3 mb-6">
                   <Heart className="w-10 h-10 text-red-400" />
                   <h3 className="text-3xl font-bold text-red-300">Life System</h3>
                 </div>
                 <div className="space-y-6">
-                  <div className="bg-black/30 p-6 rounded-xl border border-red-500/20">
+                  <div className="bg-black/60 p-6 rounded-xl border border-red-500/20">
                     <div className="flex items-center gap-2 mb-3">
                       <Heart className="w-6 h-6 text-red-400 fill-red-400" />
                       <Heart className="w-6 h-6 text-red-400 fill-red-400" />
@@ -175,14 +175,14 @@ export default function App() {
                   </div>
 
                   <div className="space-y-3">
-                    <div className="flex items-start gap-3 bg-red-500/10 p-4 rounded-lg border border-red-500/20">
+                    <div className="flex items-start gap-3 bg-red-950/40 p-4 rounded-lg border border-red-500/20">
                       <span className="text-2xl">❌</span>
                       <div>
                         <p className="text-white font-semibold">Hit an obstacle</p>
                         <p className="text-sm text-gray-400">-1 life if you collide with an obstacle</p>
                       </div>
                     </div>
-                    <div className="flex items-start gap-3 bg-red-500/10 p-4 rounded-lg border border-red-500/20">
+                    <div className="flex items-start gap-3 bg-red-950/40 p-4 rounded-lg border border-red-500/20">
                       <span className="text-2xl">⚠️</span>
                       <div>
                         <p className="text-white font-semibold">Missed pose</p>
@@ -195,23 +195,23 @@ export default function App() {
             </div>
 
             {/* Progression */}
-            <div className="bg-gradient-to-br from-cyan-900/40 to-blue-900/40 backdrop-blur-sm border border-cyan-500/30 rounded-2xl p-8">
+            <div className="bg-gradient-to-br from-cyan-950/70 to-blue-950/70 backdrop-blur-sm border border-cyan-500/20 rounded-2xl p-8">
               <div className="flex items-center gap-3 mb-6">
                 <Sparkles className="w-10 h-10 text-cyan-400" />
                 <h3 className="text-3xl font-bold text-cyan-300">Progression</h3>
               </div>
               <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center p-6 bg-white/5 rounded-xl border border-cyan-500/20">
+                <div className="text-center p-6 bg-black/50 rounded-xl border border-cyan-500/20">
                   <div className="text-5xl mb-3">🏃</div>
                   <h4 className="text-xl font-bold text-cyan-300 mb-2">Advance</h4>
                   <p className="text-gray-400">The further you go, the more interesting it gets</p>
                 </div>
-                <div className="text-center p-6 bg-white/5 rounded-xl border border-purple-500/20">
+                <div className="text-center p-6 bg-black/50 rounded-xl border border-purple-500/20">
                   <div className="text-5xl mb-3">🌍</div>
                   <h4 className="text-xl font-bold text-purple-300 mb-2">Explore</h4>
                   <p className="text-gray-400">Discover different worlds as you play</p>
                 </div>
-                <div className="text-center p-6 bg-white/5 rounded-xl border border-pink-500/20">
+                <div className="text-center p-6 bg-black/50 rounded-xl border border-pink-500/20">
                   <div className="text-5xl mb-3">⚡</div>
                   <h4 className="text-xl font-bold text-pink-300 mb-2">Difficulty</h4>
                   <p className="text-gray-400">Challenge increases progressively</p>
@@ -223,10 +223,10 @@ export default function App() {
       </section>
 
       {/* Play Now Section */}
-      <section id="play" className="py-20 bg-black/20">
+      <section id="play" className="py-20 bg-black/40">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="bg-gradient-to-br from-cyan-900/40 to-purple-900/40 backdrop-blur-sm border border-cyan-500/30 rounded-3xl p-12">
+            <div className="bg-gradient-to-br from-cyan-950/70 to-purple-950/70 backdrop-blur-sm border border-cyan-500/20 rounded-3xl p-12">
               <Gamepad2 className="w-20 h-20 text-cyan-400 mx-auto mb-6" />
               <h2 className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-400">
                 Ready to Play?
@@ -286,7 +286,7 @@ export default function App() {
 
             <div className="grid md:grid-cols-2 gap-8">
               {/* Amélioration 1 - Difficulté */}
-              <div className="bg-gradient-to-br from-orange-900/40 to-red-900/40 backdrop-blur-sm border border-orange-500/30 rounded-2xl p-8 hover:border-orange-400/50 transition-all">
+              <div className="bg-gradient-to-br from-orange-950/70 to-red-950/70 backdrop-blur-sm border border-orange-500/20 rounded-2xl p-8 hover:border-orange-400/50 transition-all">
                 <div className="w-16 h-16 bg-orange-500/20 rounded-2xl flex items-center justify-center mb-4">
                   <TrendingUp className="w-8 h-8 text-orange-400" />
                 </div>
@@ -294,7 +294,7 @@ export default function App() {
                 <p className="text-gray-400 mb-4">
                   Adding multiple difficulty levels (Easy, Medium, Hard, Expert) to suit all players, from beginners to experts. Obstacle speed, pose frequency, and reaction time will be adjustable.
                 </p>
-                <div className="aspect-video bg-black/30 rounded-lg flex items-center justify-center border border-orange-500/20">
+                <div className="aspect-video bg-black/70 rounded-lg flex items-center justify-center border border-orange-500/20">
                   <div className="text-center p-4">
                     <Trophy className="w-12 h-12 text-orange-400/50 mx-auto mb-2" />
                     <p className="text-gray-500 text-sm">Difficulty selection menu</p>
@@ -303,7 +303,7 @@ export default function App() {
               </div>
 
               {/* Amélioration 2 - Beauté */}
-              <div className="bg-gradient-to-br from-pink-900/40 to-purple-900/40 backdrop-blur-sm border border-pink-500/30 rounded-2xl p-8 hover:border-pink-400/50 transition-all">
+              <div className="bg-gradient-to-br from-pink-950/70 to-purple-950/70 backdrop-blur-sm border border-pink-500/20 rounded-2xl p-8 hover:border-pink-400/50 transition-all">
                 <div className="w-16 h-16 bg-pink-500/20 rounded-2xl flex items-center justify-center mb-4">
                   <Palette className="w-8 h-8 text-pink-400" />
                 </div>
@@ -320,7 +320,7 @@ export default function App() {
               </div>
 
               {/* Amélioration 3 - Code */}
-              <div className="bg-gradient-to-br from-green-900/40 to-teal-900/40 backdrop-blur-sm border border-green-500/30 rounded-2xl p-8 hover:border-green-400/50 transition-all">
+              <div className="bg-gradient-to-br from-green-950/70 to-teal-950/70 backdrop-blur-sm border border-green-500/20 rounded-2xl p-8 hover:border-green-400/50 transition-all">
                 <div className="w-16 h-16 bg-green-500/20 rounded-2xl flex items-center justify-center mb-4">
                   <Code className="w-8 h-8 text-green-400" />
                 </div>
@@ -337,7 +337,7 @@ export default function App() {
               </div>
 
               {/* Amélioration 4 - Face Cam */}
-              <div className="bg-gradient-to-br from-blue-900/40 to-cyan-900/40 backdrop-blur-sm border border-blue-500/30 rounded-2xl p-8 hover:border-blue-400/50 transition-all">
+              <div className="bg-gradient-to-br from-blue-950/70 to-cyan-950/70 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-8 hover:border-blue-400/50 transition-all">
                 <div className="w-16 h-16 bg-blue-500/20 rounded-2xl flex items-center justify-center mb-4">
                   <Camera className="w-8 h-8 text-blue-400" />
                 </div>
@@ -358,7 +358,7 @@ export default function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-black/40 py-12 border-t border-white/10">
+      <footer className="bg-black/80 py-12 border-t border-white/5">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-gray-400 mb-2">
