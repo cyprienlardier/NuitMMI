@@ -30,30 +30,6 @@ export default function App() {
             <p className="text-2xl md:text-3xl text-indigo-200 mb-12">
               Move your body, dodge obstacles and hold the pose!
             </p>
-
-            {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
-              <div className="bg-black/40 backdrop-blur-sm border border-indigo-500/20 rounded-xl p-4">
-                <Camera className="w-8 h-8 text-blue-400 mx-auto mb-2" />
-                <div className="text-2xl font-bold text-blue-400">ML5.js</div>
-                <div className="text-sm text-gray-400">Motion detection</div>
-              </div>
-              <div className="bg-black/40 backdrop-blur-sm border border-indigo-500/20 rounded-xl p-4">
-                <Zap className="w-8 h-8 text-indigo-400 mx-auto mb-2" />
-                <div className="text-2xl font-bold text-indigo-400">MakeyMakey</div>
-                <div className="text-sm text-gray-400">Physical controls</div>
-              </div>
-              <div className="bg-black/40 backdrop-blur-sm border border-indigo-500/20 rounded-xl p-4">
-                <Heart className="w-8 h-8 text-blue-300 mx-auto mb-2" />
-                <div className="text-2xl font-bold text-blue-300">3 Lanes</div>
-                <div className="text-sm text-gray-400">Movement</div>
-              </div>
-              <div className="bg-black/40 backdrop-blur-sm border border-indigo-500/20 rounded-xl p-4">
-                <Target className="w-8 h-8 text-indigo-300 mx-auto mb-2" />
-                <div className="text-2xl font-bold text-indigo-300">3 Lives</div>
-                <div className="text-sm text-gray-400">Don't lose them all</div>
-              </div>
-            </div>
           </div>
         </div>
 
